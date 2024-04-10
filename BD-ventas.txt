@@ -1,6 +1,6 @@
 una empresa de ventas en línea que vende una variedad de productos.
 Quieres diseñar una base de datos para gestionar los pedidos de los clientes, los productos disponibles y la información de los clientes. 
-Además, deseas implementar un procedimiento almacenado para calcular el total de ventas realizadas por un cliente en un periodo de tiempo específico.
+Además, implementar procedimiento almacenados.
 
 1. Diseño de la base de datos:
 

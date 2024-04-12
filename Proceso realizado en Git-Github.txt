@@ -1,0 +1,44 @@
+Para iniciar este tema de Git (local) y Github (remoto) se desarollaron los sgtes pasos:
+
+Con GIT:
+
+1. Tener instalado Git en nuestra PC y tambien estar registrado en GitHub (web).
+2. Se crea una carpeta, en mi caso llame "git-gitHub", que viene siendo nuestra AREA DE TRABAJO, en donde estaran alojados los archivos que queremos dar prioridad y subir a git.
+3. Damos inicio a Git dentro de la carpeta, dando clic derecho la opcion "open git bash", se abre la interfaz de git que tiene un parecido al simbolo del sistema.
+4. Dentro de la interfaz de git, usamos el sgte comando "git init", para inicializar un proyecto nuevo. ¡OJO! debemos estar dentro de la carpeta en la que queremos trabajar.
+5. Usamos los comandos "git config --global user.name" y "git config --global user.email". Para crear nuestro usuario y registrar nuestro correo que mas adelante debe ser el mismo que el registrado en GitHub.
+6. Para el area de trabajo he creado varios archivos:
+->BD-ventas.sql: aqui esta el archivo de la actividad de crear una base de datos con un problema planteado con su solucion y aplicarle tres procedimientos almacenados y practicas SQL.
+->BD-ventas2.sql: es una copia del original
+->Bd-ventas.txt: aqui deje una copia de mi codigo SQL de mi BD
+->Proceso realizado en Git-Github.txt: aqui detallo el proceso que realizo para git y github
+->Proceso realizado en la BD.txt: aqui detallo el proceso que realizo como elabore mi BD
+7. Usando el comando "git status" podemos ver el estado de nuestros archivos que estan en el AREA DE TRABAJO.
+8. Usando el comando "git add . " o "git add * " o "git add aqui el nombre del archivo con su extension": estas tres formas sirven para agregar nuestros archivos al AREA DE STAGING.
+9. Usando el comando "git commit" asi solo, se debe abrir el editor que tengo registrado en el momento de la instalacion de git o el que trae por defecto que es vim, en mi caso, tengo configurado VScode, aqui escribo con detalles 
+que estoy haciendo para que quede registrado, mas o menos como una bitacora o la minuta, donde escribimos con detalle y cerrando el editor se crea mi primer punto de control de nuestro trabajo es decir mi primer HASH. Aqui se le 
+conoce como AREA DEL REPOSITORIO.
+10. Tambien podemos usar el registro del commits de la sgte forma, uso el comando "git commit -m "aqui escribo un mensaje corto" -a ", se sube a mi REPOSITORIO. 
+11. Usando el comando "git log" puedo visualizar los commits o el commit que hemos creado.
+12. Esta es la forma mas basica de subir archivos desde el area de trabajo, pasa por staging y finaliza en el repositorio. Asi funciona git.
+13. Si uso el comando "git status", no debe aparecer nada en el area de trabajo, pq ya todo esta subido en el repositorio. 
+
+Con GITHUB:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

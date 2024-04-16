@@ -51,11 +51,21 @@ CREATE TABLE detalles_pedido (
 
 6. A cada tabla se le hizo minimo 10 registros.
 7. Para hacer sentencias SQL: 
--> Para consultar una tabla, por ejemplo pedidos, usamos el sgte codigo: select * from pedidos; Me muestra la tabla pedidos.
--> Para una consulta mas especifica de una tabla, el sgte codigo: select Fecha from pedidos; Me muestra una columna dentro de pedidos.
--> Para aun mas especifica con detalles dentro de una columna, el sgte codigo: select * from productos where Stock = 50; Me muestra los productos que tengan solo Stock de 50.
--> Para contar cuantos clientes tengo en la tabla cliente, el sgte codigo: select count(ID_Cliente) from clientes. Me muestra el total de clientes registrados.
--> En el caso de un registro nuevo, por ejemplo en clientes: Usamos el sgte codigo: insert into clientes values (null, 'nombre','direccion','email');
+
+-> Para consultar una tabla, por ejemplo pedidos, usamos el sgte codigo: 
+   select * from pedidos; Me muestra la tabla pedidos.
+
+-> Para una consulta mas especifica de una tabla, el sgte codigo:  
+   select Fecha from pedidos; Me muestra una columna dentro de pedidos.
+
+-> Para aun mas especifica con detalles dentro de una columna, el sgte codigo: select * from productos where Stock = 50;
+   Me muestra los productos que tengan solo Stock de 50.
+
+-> Para contar cuantos clientes tengo en la tabla cliente, el sgte codigo: 
+   select count(ID_Cliente) from clientes. Me muestra el total de clientes registrados.
+
+-> En el caso de un registro nuevo, por ejemplo en clientes: Usamos el sgte codigo: 
+   insert into clientes values (null, 'nombre','direccion','email');
 
 
 
